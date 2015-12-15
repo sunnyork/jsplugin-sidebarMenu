@@ -1,0 +1,17 @@
+.wrapper {
+	width: 950px;
+	margin: 0 auto;
+}
+.wrapper > aside,
+.wrapper > section {
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.wrapper > aside {
+	width: 20%;
+	background: #ddd;
+}
+.wrapper > section {
+	width: 80%;
+}
