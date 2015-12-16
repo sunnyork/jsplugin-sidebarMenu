@@ -1,3 +1,4 @@
+/* container */
 .wrapper {
 	width: 950px;
 	margin: 0 auto;
@@ -9,9 +10,52 @@
 	padding: 10px;
 }
 .wrapper > aside {
-	width: 20%;
+	width: 210px;
 	background: #ddd;
 }
 .wrapper > section {
-	width: 80%;
+	width: 700px;
+}
+
+/* element */
+li {
+	position: relative;
+}
+section p {
+	font-size: 120%;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+.nav_popup {
+	position: absolute;
+	left:210px;
+	background: #eee;
+	border: 2px solid #888;
+}
+/* dumpped from production */
+.box1{
+ width:200px;
+}
+.box2{
+ width:400px;
+}
+.box3{
+ width:600px;
+}
+.box4{
+ width:800px;
+}
+.nav_popup .box { 
+ width:184px; 
+ height:auto;
+ position:relative;
+ overflow:hidden;
+ float:left;
+ display:inline; 
+ margin:0;
+ padding:0; 
+ background:#fff;/*ie6*/
+}
+.nav_popup .box .group {
+ margin-bottom:3px;
 }
